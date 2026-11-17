@@ -5,8 +5,8 @@
     "price": "289.90",
     "category": "Blazers",
     "images": [
-      "../v1/images/blazer1.webp",
-      "../v1/images/blazer2.webp"
+      "./images/blazer1.webp",
+      "./images/blazer2.webp"
     ],
     "stock": {
       "PP": 1,
@@ -22,8 +22,8 @@
     "price": "119.90",
     "category": "Camisetas",
     "images": [
-      "../v1/images/tee1.webp",
-      "../v1/images/tee2.webp"
+      "./images/tee1.webp",
+      "./images/tee2.webp"
     ],
     "stock": {
       "PP": 0,
@@ -39,8 +39,8 @@
     "price": "229.90",
     "category": "Calças",
     "images": [
-      "../v1/images/calca1.webp",
-      "../v1/images/calca2.webp"
+      "./images/calca1.webp",
+      "./images/calca2.webp"
     ],
     "stock": {
       "34": 0,
@@ -56,7 +56,7 @@
     "price": "159.90",
     "category": "Shorts",
     "images": [
-      "../v1/images/short1.webp"
+      "./images/short1.webp"
     ],
     "stock": {
       "34": 1,
@@ -72,7 +72,7 @@
     "price": "139.90",
     "category": "Acessórios",
     "images": [
-      "../v1/images/cinto1.webp"
+      "./images/cinto1.webp"
     ],
     "stock": {
       "UN": 6
