@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "5561999999999"; // Substitua pelo WhatsApp oficial da loja (61 = Brasília)
+const WHATSAPP_NUMBER = "5561985023258"; // Substitua pelo WhatsApp oficial da loja (61 = Brasília)
 const INSTAGRAM_USERNAME = "redemarrer_";
 const CATALOG_URL = "../catalog/products.json"; // URL do arquivo JSON com os produtos
 
