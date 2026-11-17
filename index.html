@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>R E D É M A R R E R — Catalogue</title>
+    <meta name="description"
+        content="Curadoria & Atelier em Brasília. Explore nossa coleção e faça sua encomenda via WhatsApp ou Instagram." />
+    <meta name="theme-color" content="#26221E" />
+
+    <!-- Open Graph / WhatsApp / Instagram Preview -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="R E D É M A R R E R" />
+    <meta property="og:title" content="R E D É M A R R E R — Collection & Catalogue" />
+    <meta property="og:description"
+        content="Curadoria & Atelier • Made in Brasília. Confira as peças disponíveis e faça seu pedido." />
+    <meta property="og:url" content="https://github.io" />
+    <meta property="og:image" content="https://github.io/images/og-cover.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="pt_BR" />
+
+    <!-- Twitter / X Large Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="R E D É M A R R E R — Collection & Catalogue" />
+    <meta name="twitter:description"
+        content="Curadoria & Atelier • Made in Brasília. Confira as peças disponíveis e faça seu pedido." />
+    <meta name="twitter:image" content="https://github.ioimages/og-cover.jpg" />
+
+    <!-- Favicon Monograma R -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,%3Csvg xmlns='http://w3.org' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%2326221E'/%3E%3Crect x='4' y='4' width='56' height='56' fill='none' stroke='%239C8265' stroke-width='1.5'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Georgia, serif' font-size='34' fill='%23F9F7F3'%3ER%3C/text%3E%3C/svg%3E" />
+    <link rel="alternate icon" href="./favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./manifest/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./manifest/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./manifest/favicon-16x16.png">
+    <link rel="manifest" href="./manifest/site.webmanifest">
+
+    <!-- Fontes Editoriais -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <!-- Barra Superior Editorial -->
+    <div class="announcement-bar">
+        <span>MADE IN BRASÍLIA • CURADORIA &amp; ATELIER</span>
+    </div>
+
+    <header class="site-header">
+        <div class="header-main">
+            <!-- Logo à Esquerda (Oculto no Mobile) -->
+            <a href="./" class="brand-logo-link" aria-label="Início R E D É M A R R E R">
+                <img src="./manifest/android-chrome-192x192.png" alt="Logo R E D É M A R R E R" class="brand-logo-img"
+                    onerror="this.src='./manifest/icon-192.png'" width="64" />
+            </a>
+
+            <!-- Título Editorial Central -->
+            <div class="brand-lockup">
+                <h1 class="brand-title">R E D É M A R R E R</h1>
+                <p class="brand-subtitle">Collection &amp; Catalogue</p>
+            </div>
+
+            <!-- Botão da Sacola à Direita -->
+            <button class="cart-trigger" onclick="toggleCart(true)" aria-label="Abrir sacola">
+                SACOLA (<span id="cart-count">0</span>)
+            </button>
+        </div>
+
+        <!-- Barra de Filtros Minimalista -->
+        <nav class="filters-bar" aria-label="Filtros do catálogo">
+            <div class="filter-group">
+                <span class="filter-label">Peças</span>
+                <div id="category-filters" class="filter-pills"></div>
+            </div>
+            <div class="filter-divider"></div>
+            <div class="filter-group">
+                <span class="filter-label">Taille / Tamanho</span>
+                <div id="size-filters" class="filter-pills"></div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main id="catalog" class="grid"></main>
+
+    <footer class="site-footer">
+        <p class="footer-brand">R E D É M A R R E R</p>
+        <a href="https://instagram.com/redemarrer_" target="_blank" rel="noopener" aria-label="Instagram @redemarrer_">
+            <svg class="ig-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+                stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+        </a>
+        <p class="footer-info">Loja Física: SIA, Galeria Feira Mix CEASA — Corredor Laranja • Brasília, DF</p>
+        <p class="footer-hours">Quarta a Domingo, das 10h às 18h</p>
+    </footer>
+
+    <!-- Gaveta Lateral da Sacola -->
+    <div id="cart-backdrop" class="cart-backdrop" onclick="toggleCart(false)"></div>
+    <aside id="cart-drawer" class="cart-drawer" aria-label="Sua sacola">
+        <div class="cart-header">
+            <div>
+                <span class="cart-eyebrow">Votre Sélection</span>
+                <h2>Sua Sacola</h2>
+            </div>
+            <button class="icon-close" onclick="toggleCart(false)" aria-label="Fechar sacola">✕</button>
+        </div>
+
+        <div id="cart-items" class="cart-items"></div>
+
+        <div id="cart-footer" class="cart-footer">
+            <div class="cart-total-row">
+                <span>Total Estimado</span>
+                <strong id="cart-total">R$ 0,00</strong>
+            </div>
+            <button class="wa-btn" onclick="checkoutWA()">Encomendar via WhatsApp</button>
+            <button class="ig-btn" onclick="checkoutIG()">Copiar Pedido &amp; Abrir Instagram DM</button>
+            <button class="clear-btn" onclick="clearCart()">Esvaziar sacola</button>
+        </div>
+    </aside>
+
+    <!-- Modal de Zoom em Tela Cheia -->
+    <div id="zoom-modal" class="modal" onclick="closeModalOnBg(event)">
+        <button class="modal-close" aria-label="Fechar zoom" onclick="closeZoom()">✕</button>
+        <button id="modal-prev" class="modal-nav prev" aria-label="Foto anterior" onclick="stepZoom(-1)">‹</button>
+        <div class="modal-content">
+            <img id="modal-img" src="" alt="Visualização ampliada" />
+            <p id="modal-caption" class="modal-caption"></p>
+        </div>
+        <button id="modal-next" class="modal-nav next" aria-label="Próxima foto" onclick="stepZoom(1)">›</button>
+    </div>
+
+    <div id="toast" class="toast"></div>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
