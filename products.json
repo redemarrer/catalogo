@@ -1,0 +1,142 @@
+[
+  {
+    "id": "VES-2611-01-BOR",
+    "name": "Vestido Listra Bordô",
+    "price": "185.00",
+    "category": "Vestidos",
+    "images": [
+      "./fotos_produtos/VES-2611-01-BOR/b57b8e4b.foto.035705.webp",
+      "./fotos_produtos/VES-2611-01-BOR/d81fe7fd.foto.035722.webp",
+      "./fotos_produtos/VES-2611-01-BOR/58a9462f.foto.035736.webp",
+      "./fotos_produtos/VES-2611-01-BOR/b9771e82.foto.035750.webp"
+    ],
+    "stock": {
+      "P": 3,
+      "M": 3,
+      "G": 4
+    }
+  },
+  {
+    "id": "VES-2611-01-PRE",
+    "name": "Vestido Listra Preto",
+    "price": "185.00",
+    "category": "Vestidos",
+    "images": [
+      "./fotos_produtos/VES-2611-01-PRE/f7817a83.foto.035823.webp",
+      "./fotos_produtos/VES-2611-01-PRE/179b68a9.foto.035837.webp",
+      "./fotos_produtos/VES-2611-01-PRE/5baa541f.foto.035850.webp",
+      "./fotos_produtos/VES-2611-01-PRE/d73b307f.foto.035903.webp"
+    ],
+    "stock": {
+      "P": 3,
+      "M": 3,
+      "G": 4
+    }
+  },
+  {
+    "id": "CON-2611-01-OFW",
+    "name": "Conjunto Tricô Saia Midi e Cigana Off White",
+    "price": "290.00",
+    "category": "Conjuntos",
+    "images": [
+      "./fotos_produtos/CON-2611-01-OFW/31e6701e.foto.033811.webp",
+      "./fotos_produtos/CON-2611-01-OFW/31e6701e.foto.034455.webp",
+      "./fotos_produtos/CON-2611-01-OFW/31e6701e.foto.035423.webp"
+    ],
+    "stock": {
+      "UN": 3
+    }
+  },
+  {
+    "id": "CON-2611-01-AZC",
+    "name": "Conjunto Tricô Saia Midi e Cigana Azul Celeste",
+    "price": "290.00",
+    "category": "Conjuntos",
+    "images": [
+      "./fotos_produtos/CON-2611-01-AZC/7cb3fb24.foto.033827.webp",
+      "./fotos_produtos/CON-2611-01-AZC/7cb3fb24.foto.033952.webp",
+      "./fotos_produtos/CON-2611-01-AZC/7cb3fb24.foto.034514.webp"
+    ],
+    "stock": {
+      "UN": 3
+    }
+  },
+  {
+    "id": "SAI-2611-01-AZM",
+    "name": "Saia Midi Tricô Azul Marinho",
+    "price": "190.00",
+    "category": "Saias",
+    "images": [
+      "./fotos_produtos/SAI-2611-01-AZM/b2690f86.foto.034718.webp"
+    ],
+    "stock": {
+      "UN": 2
+    }
+  },
+  {
+    "id": "SAI-2611-01-VDO",
+    "name": "Saia Midi Tricô Verde Oliva",
+    "price": "190.00",
+    "category": "Saias",
+    "images": [
+      "./fotos_produtos/SAI-2611-01-VDO/3ac3bad9.foto.034835.webp"
+    ],
+    "stock": {
+      "UN": 2
+    }
+  },
+  {
+    "id": "CAL-2611-01-AZM",
+    "name": "Calça Barrel Jeans",
+    "price": "290.00",
+    "category": "Calças",
+    "images": [
+      "./fotos_produtos/CAL-2611-01-AZM/7b9fe9f4.foto.035030.webp",
+      "./fotos_produtos/CAL-2611-01-AZM/060c4011.foto.035016.webp",
+      "./fotos_produtos/CAL-2611-01-AZM/060c4011.foto.035017.webp",
+      "./fotos_produtos/CAL-2611-01-AZM/060c4011.foto.035018.webp"
+    ],
+    "stock": {
+      "34": 2,
+      "36": 2,
+      "38": 2,
+      "40": 2,
+      "42": 2,
+      "44": 2
+    }
+  },
+  {
+    "id": "VES-2611-02-AZC",
+    "name": "Vestido Bicolor Azul Celeste",
+    "price": "265.00",
+    "category": "Vestidos",
+    "images": [
+      "./fotos_produtos/VES-2611-02-AZC/0d575b2a.foto.052141.webp",
+      "./fotos_produtos/VES-2611-02-AZC/a4796040.foto.052200.webp",
+      "./fotos_produtos/VES-2611-02-AZC/2a14c4f0.foto.052217.webp",
+      "./fotos_produtos/VES-2611-02-AZC/49aaf1f2.foto.052232.webp"
+    ],
+    "stock": {
+      "P": 2,
+      "M": 2,
+      "G": 2
+    }
+  },
+  {
+    "id": "VES-2611-02-AZM",
+    "name": "Vestido Bicolor Azul Marinho",
+    "price": "265.00",
+    "category": "Vestidos",
+    "images": [
+      "./fotos_produtos/VES-2611-02-AZM/9b7c85cf.foto.052557.webp",
+      "./fotos_produtos/VES-2611-02-AZM/94c87d54.foto.052611.webp",
+      "./fotos_produtos/VES-2611-02-AZM/ebdff545.foto.052627.webp",
+      "./fotos_produtos/VES-2611-02-AZM/a464277d.foto.052650.webp"
+    ],
+    "stock": {
+      "P": 2,
+      "M": 2,
+      "G": 2
+    }
+  }
+]
