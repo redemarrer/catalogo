@@ -352,8 +352,7 @@ function buildCartMessage() {
         const sizeLabel = entry.size === 'UN' ? 'Tamanho Único' : entry.size;
         return `- ${entry.qty} x *${product.name}* (${sizeLabel}) — ${formatBRL(subtotal)}`;
     }).filter(Boolean);
-    return `Olá, R E D É M A R R E R! Gostaria de encomendar: \n${lines.join('\n')} -------------------------------------------------------------------------------
-\n *Total estimado:* ${formatBRL(total)}`;
+    return `Olá, R E D É M A R R E R! Gostaria de encomendar: \n${lines.join('\n')}\n-------------------------------------------------------------------------------\n*Total estimado:* ${formatBRL(total)}`;
 }
 
 function checkoutWA() {
