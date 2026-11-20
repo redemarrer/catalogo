@@ -5,7 +5,7 @@ const CATALOG_URL = "./products.json?v=2611"; // URL do arquivo JSON com os prod
 
 const STORAGE_CART_KEY = "redemarrer_sacola_v1";
 const STORAGE_STATE_KEY = "redemarrer_estado_v1";
-const SIZE_ORDER = ['PP', 'P', 'M', 'G', 'GG', '34', '36', '38', '40', '42', 'UN'];
+const SIZE_ORDER = ['PP', 'P', 'M', 'G', 'GG', '34', '36', '38', '40', '42', '44', 'UN'];
 
 let allProducts = [];
 let activeCategory = 'Todos';
